@@ -5,6 +5,7 @@ $('.submit').click(function() {
 });
 
 $('.ask').click(function() {
+  $('.sample').hide();
   res = Math.floor((Math.random() * players) + 1);
   $('.result').text(res);
 });
