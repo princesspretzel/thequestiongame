@@ -11,6 +11,7 @@ $('.ask').click(function() {
 });
 
 $('.question').click(function() {
+  $('.sample').show();
   len = questions.length;
   i = Math.floor((Math.random() * len));
   q = questions[i].text;
