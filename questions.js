@@ -25,5 +25,29 @@ questions = [
   },
   {
     text: "do you think some people are better than others?"
+  },
+  {
+    text: "what superpower would you have if you could choose?"
+  },
+  {
+    text: "if you had a superpower, would you keep it secret?"
+  },
+  {
+    text: "if you could know how or when you were going to die, which would you choose?"
+  },
+  {
+    text: "is there anything you wish you could have told someone that now you can't?"
+  },
+  {
+    text: "what is a place you'd like to visit that you know nothing about?"
+  },
+  {
+    text: "how would you hide if you had to be in the witness protection program?"
+  },
+  {
+    text: "what's the most scared you have ever been?"
+  },
+  {
+    text: "what's something you're excited about right now?"
   }
 ]
