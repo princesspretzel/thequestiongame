@@ -3,7 +3,7 @@ h1 {
 }
 
 .result {
-  font-size: 300%;
+  font-size: 4em;
   font-weight: bold;
   text-align: center;
   width: 100%; 
@@ -51,6 +51,7 @@ input {
 
   h1 {
     font-size: 3em;
+    margin-bottom: 1.2em;
   }
 
   button {
@@ -59,7 +60,6 @@ input {
     -webkit-appearance: none;
     -moz-appearance: none;
     display: block;
-    margin: 1em 0;
     margin-left: 10%;
     width: 60%;
   }
@@ -87,5 +87,13 @@ input {
   .meditation {
     position: static;
     margin-top: 3em;
+  }
+
+  .result {
+    font-size: 4em;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    width: 100%; 
   }
 }

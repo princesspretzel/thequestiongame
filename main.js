@@ -7,6 +7,7 @@ $('.before-question').show();
 
 $('.submit').click(function() {
   $('.start').hide();
+  $('.before-question').hide();
   players = $('.players').val();
 });
 
