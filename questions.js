@@ -49,5 +49,14 @@ questions = [
   },
   {
     text: "what's something you're excited about right now?"
-  }
+  },
+  {
+    text: "if you could travel to a time in the past or in the future, which would you choose and why?"
+  },
+  {
+    text: "how do you think the world will end?"
+  },
+  {
+    text: "do you think you've met 'the one'?"
+  }  
 ]

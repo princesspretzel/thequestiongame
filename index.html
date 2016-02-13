@@ -3,34 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name=viewport content='width=700'>
+  <link rel="stylesheet" type="text/css" href="styles.css">
   <title>the question game</title>
 </head>
 <body>
 
   <h1>the question game</h1>
   <p class="result"></p>
-  <div class=start>
-    <input class="players" placeholder="how many players?" type="number" sixe=20></input>
+  <p class="before-question"></p>
+  
+  <div class="start">
+    <input class="players" placeholder="how many players?" type="number" size=20></input>
+
     <button class="submit">start the game</button>
   </div>
-
+  
   <button class="ask">ask the question</button>
-  <br></br>
-  <button class="question">i can't think of anything give me a question</button>
-  <p class="sample"></p>
 
-  <h2>instructions:</h2>
-  <div class=inst>
+  <p class="sample"></p>
+  <p class="blank-sample"></p>
+  <button class="question">i can't think of anything give me a question</button>
+
+  <div class="inst">
+    <h3>instructions:</h3>
     <ol>
       <li>assign everyone a number</li>
       <li>go around in a circle taking turns asking questions</li>
       <li>when you hit "ask the question", the person assigned to that number answers the question aloud</li>
-      <li>but in their heads, everyone secretly answers</li>
-      <li>enjoy your soul-search, i hope you find what you're looking for >>>:)</li>
+      <li>but in their heads, everyone secretly answers >>>:)</li>
     </ol>
   </div>
-
-  <p>tip: avoid using the sample questions for best results (hardmode)/n~ people's questions are often more revealing than their answers ~</p>
+  <div class="meditation"><i>questions are more revealing than answers</i></div>
 
 </body>
 </html>
